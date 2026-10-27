@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Restaurante D’Lucdy</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="imagenes/etiqueta.jpeg" alt="Logotipo del restaurante D’Lucdy" width="145">
+
+        <h1>Restaurante D’Lucdy</h1>
+        <p><strong>Almuerzos con sazón manaba</strong></p>
+
+        <nav>
+            <a href="index.html">Inicio</a> |
+            <a href="nosotros.html">Nosotros</a> |
+            <a href="menu.html">Menú</a> |
+            <a href="galeria.html">Galería</a> |
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <h2>¡Contáctanos!</h2>
+        <p>
+            ¿Tienes alguna consulta? Visita nuestro Facebook
+            o encuentra cómo llegar al restaurante.
+        </p>
+
+        <table border="1">
+            <caption><strong>¡Estamos cerca de ti!</strong></caption>
+
+            <tr>
+                <th>Síguenos en Facebook</th>
+                <th>Visítanos</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <p>Conoce nuestras publicaciones y novedades.</p>
+                    <p>
+                        <a href="https://www.facebook.com/profile.php?id=100064794289431" target="_blank"
+                            rel="noopener noreferrer">
+                            Visitar Facebook de D’Lucdy
+                        </a>
+                    </p>
+                </td>
+
+                <td>
+                    <p>Encuentra nuestra ubicación y cómo llegar.</p>
+                    <p>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!4v1793070506756!6m8!1m7!1sw9z3fdytpktMYAZTv4BClA!2m2!1d-0.2570831017214975!2d-79.16764697878418!3f39.480955996582125!4f0.43632440430162944!5f0.7820865974627469"
+                            width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </p>
+                </td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <h2>Escríbenos</h2>
+        <p>Completa este formulario de demostración para tu consulta.</p>
+
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Datos de contacto</legend>
+
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" minlength="2" maxlength="60"
+                    placeholder="Escribe tu nombre" required>
+
+                <br><br>
+
+                <label for="correo">Correo electrónico:</label><br>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+
+                <br><br>
+
+                <label for="motivo">Motivo de tu consulta:</label><br>
+                <select name="motivo" id="motivo" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="menu">Consultar el menú</option>
+                    <option value="horario">Consultar horarios</option>
+                    <option value="ubicacion">Consultar ubicación</option>
+                    <option value="otro">Otra consulta</option>
+                </select>
+
+                <br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea name="mensaje" id="mensaje" rows="5" cols="30" minlength="10"
+                    placeholder="Escribe aquí tu consulta..." required></textarea>
+
+                <br><br>
+
+                <label>
+                    <input type="checkbox" name="aceptacion" value="si" required>
+                    Acepto que se utilicen mis datos para esta consulta.
+                </label>
+
+                <br><br>
+
+                <button type="submit">Probar formulario</button>
+                <button type="reset">Limpiar</button>
+            </fieldset>
+        </form>
+
+        <p>
+            <strong>Aviso:</strong> este formulario es una demostración
+            académica. No envía mensajes al restaurante.
+            Para contactarnos, visita nuestro Facebook.
+        </p>
+
+        <h3>¡Te esperamos en D’Lucdy!</h3>
+        <p>Ven y disfruta de nuestros almuerzos con sazón manaba.</p>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>
+            <strong>Restaurante D’Lucdy</strong><br>
+            Proyecto académico ESPE · Iker Guallo y Jeffry Vera
+        </p>
+    </footer>
+
+</body>
+
+</html>
